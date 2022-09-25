@@ -1,14 +1,15 @@
 import React from "react";
 
-function Transaction() {
-  return (
-    <tr>
-      <td>{"your code here..."}</td>
-      <td>{"your code here..."}</td>
-      <td>{"your code here..."}</td>
-      <td>{"your code here..."}</td>
-    </tr>
-  );
+function Transaction({id, date, description, category, amount, deleteTransactions}) {
+
+  function handleDeleteTransaction(){
+    fetch (`http://localhost:8001/transactions/${id}`, {
+      method: "DELETE"
+    })
+    deleteTransactions(id);
+  }
+
+  
 }
 
 export default Transaction;
