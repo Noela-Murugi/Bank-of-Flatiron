@@ -16,7 +16,7 @@ function AccountContainer() {
   },[])
   console.log(transactions);
 //new transaction
-function addTransaction (newTransaction) {
+function infor (newTransaction) {
   const updatedTransactions = [...transactions, newTransaction]
   setTransactions(updatedTransactions);
 }
@@ -32,7 +32,7 @@ function deleteTransact(id) {
   return (
     <div>
       <Search search={search} setSearch={setSearch}/>
-      <AddTransactionForm newTransactions={addTransaction}/>
+      <AddTransactionForm newTransactions={infor}/>
       <TransactionsList transactions={transactions} deleteTransactions={deleteTransact}/>
     </div>
   );
