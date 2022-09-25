@@ -122,21 +122,12 @@
     },
     {
       "dataInfo": {
-        "date": "2022-08-31",
-        "description": "newbank",
-        "category": "category",
-        "amount": "0.01"
-      },
-      "id": 18
-    },
-    {
-      "dataInfo": {
         "date": "2022-09-08",
         "description": "description2",
         "category": "category2",
         "amount": "0.02"
       },
-      "id": 20
+      "id": 17
     },
     {
       "dataInfo": {
@@ -145,7 +136,7 @@
         "category": "category3",
         "amount": "0.02"
       },
-      "id": 21
+      "id": 18
     },
     {
       "dataInfo": {
@@ -154,8 +145,49 @@
         "category": "category4",
         "amount": "10.08"
       },
+      "id": 19
+    },
+    {
+      "date": "2022-09-14",
+      "description": "new6",
+      "category": "category8",
+      "amount": "0.03",
+      "id": 20
+    },
+    {
+      "date": "2022-08-28",
+      "description": "new Description3",
+      "category": "category12",
+      "amount": "0.07",
+      "id": 21
+    },
+    {
+      "date": "2022-10-04",
+      "description": "Final Trial Description",
+      "category": "Final Trial Category",
+      "amount": "150.05",
       "id": 22
+    },
+    {
+      "date": "2022-08-28",
+      "description": "Final Trial Description1",
+      "category": "Final Trial Category1",
+      "amount": "0.03",
+      "id": 23
+    },
+    {
+      "date": "2022-09-02",
+      "description": "Final Trial Description2",
+      "category": "Final Trial Category2",
+      "amount": "-0.01",
+      "id": 24
+    },
+    {
+      "date": "2022-10-05",
+      "description": "Final Trial Description3",
+      "category": "Final Trial Category3",
+      "amount": "120.01",
+      "id": 25
     }
   ]
 }
-

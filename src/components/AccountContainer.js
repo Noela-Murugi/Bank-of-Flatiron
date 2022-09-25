@@ -5,15 +5,19 @@ import AddTransactionForm from "./AddTransactionForm";
 
 function AccountContainer() {
   const [transactions, setTransactions] = useState([]);
-  const [search, setSearch] = useState("");
+  const [copy, setCopy] = React.useState([]);
+
   useEffect(() => {
     fetch("http://localhost:8001/transactions")
       .then((response) => response.json())
-      .then((data) => setTransactions(data));
+      .then((data) => {
+
+        setCopy(data)
+        setTransactions(data)});
   }, []);
   console.log(transactions);
 
-  function infor(newTransaction) {
+  function addTransacfinfor(newTransaction) {
     const update = [...transactions, newTransaction];
     setTransactions(update);
   }
@@ -24,10 +28,17 @@ function AccountContainer() {
     setTransactions(update);
   }
 
+  function handleChange(event){
+    let search = event.target.value.toLowerCase()
+    //  const somevalue = undefined
+    // const val = somevalue || ""
+    setTransactions(copy.filter(val=>val.description.toLowerCase().includes(search)))
+  }
+
   return (
     <div>
-      <Search search={search} setSearch={setSearch} />
-      <AddTransactionForm transactions={transactions} newTransactions={infor} />
+      <Search handleChange={handleChange} />
+      <AddTransactionForm anewTransaction={addTransacfinfor} />
       <TransactionsList
         transactions={transactions}
         deleteTransactions={deleteTransact}

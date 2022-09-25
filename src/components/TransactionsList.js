@@ -11,7 +11,7 @@ function TransactionsList({
 
   if (transactions) {
     const tfilter = transactions.filter((transaction) => {
-      return transaction.description;
+      return transaction.description
     });
 
     listtransaction = tfilter.map((transaction) => {
@@ -52,7 +52,7 @@ function TransactionsList({
             <h3 className="ui center aligned header">Amount</h3>
           </th>
           <th>
-            <h3 className="ui center aligned header">Action</h3>
+            <h3 className="ui center aligned header">Button Action</h3>
           </th>
         </tr>
         {listtransaction}
