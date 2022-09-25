@@ -22,6 +22,13 @@ function addTransaction (newTransaction) {
 }
 
 
+//Delete transaction
+function deleteTransact(id) {
+  const updatedTransactions = transactions.filter(transaction => transaction.id !== id);
+  setTransactions(updatedTransactions);
+}
+
+
   return (
     <div>
       <Search search={search} setSearch={setSearch}/>
