@@ -128,6 +128,33 @@
         "amount": "0.01"
       },
       "id": 18
+    },
+    {
+      "dataInfo": {
+        "date": "2022-09-08",
+        "description": "description2",
+        "category": "category2",
+        "amount": "0.02"
+      },
+      "id": 20
+    },
+    {
+      "dataInfo": {
+        "date": "2022-08-30",
+        "description": "new",
+        "category": "category3",
+        "amount": "0.02"
+      },
+      "id": 21
+    },
+    {
+      "dataInfo": {
+        "date": "2022-08-28",
+        "description": "new3",
+        "category": "category4",
+        "amount": "10.08"
+      },
+      "id": 22
     }
   ]
 }
