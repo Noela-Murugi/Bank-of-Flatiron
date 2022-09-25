@@ -83,6 +83,33 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "dataInfo": {
+        "date": "2022-09-23",
+        "description": "newbank",
+        "category": "category",
+        "amount": "0.01"
+      },
+      "id": 13
+    },
+    {
+      "dataInfo": {
+        "date": "2022-10-08",
+        "description": "newbank",
+        "category": "category",
+        "amount": "-0.04"
+      },
+      "id": 14
+    },
+    {
+      "dataInfo": {
+        "date": "2022-09-01",
+        "description": "newbank",
+        "category": "category",
+        "amount": "0.03"
+      },
+      "id": 15
     }
   ]
 }
