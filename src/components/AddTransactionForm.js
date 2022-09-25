@@ -48,7 +48,7 @@ function AddTransactionForm(newTransactions,id) {
           <input type="text" name="category" placeholder="Category" value={dataInfo.category} onChange={handleChange}/>
           <input type="number" name="amount" placeholder="Amount" step="0.01" value={dataInfo.amount} onChange={handleChange}/>
         </div>
-        <button className="ui button" type="submit" >
+        <button className="ui button" type="submit" onClick={handleSubmit}>
           Add Transaction
         </button>
       </form>
