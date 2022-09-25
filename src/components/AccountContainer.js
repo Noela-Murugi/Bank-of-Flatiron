@@ -5,7 +5,17 @@ import AddTransactionForm from "./AddTransactionForm";
 
 function AccountContainer() {
 
+  const [transactions, setTransactions] = useState([])
+  const [search, setSearch] = useState("")
+  // fetch transaction
+  useEffect(() =>{
+    fetch ("http://localhost:8001/transactions")
+    .then((response)=>response.json())
+    .then(data => setTransactions(data));
 
+  },[])
+  console.log(transactions);
+ 
 
   return (
     <div>
