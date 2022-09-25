@@ -110,6 +110,15 @@
         "amount": "0.03"
       },
       "id": 15
+    },
+    {
+      "dataInfo": {
+        "date": "2022-09-29",
+        "description": "new Transaction",
+        "category": "new category",
+        "amount": "0.14"
+      },
+      "id": 16
     }
   ]
 }
