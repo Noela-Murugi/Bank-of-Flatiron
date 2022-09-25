@@ -13,7 +13,8 @@
   },
   "scripts": {
     "start": "PORT=8000 react-scripts start",
-    "server": "json-server --watch db.json -p 8001"
+    "server": "json-server --watch db.json -p 8001",
+    "build": "PORT=8000 react-scripts build"
   },
   "eslintConfig": {
     "extends": [
