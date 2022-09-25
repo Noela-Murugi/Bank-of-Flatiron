@@ -9,7 +9,14 @@ function Transaction({id, date, description, category, amount, deleteTransaction
     deleteTransactions(id);
   }
 
-  
+  return (
+    <tr>
+      <td>{date}</td>
+      <td>{description}</td>
+      <td>{category}</td>
+      <td>{amount}</td>
+    </tr>
+  );
 }
 
 export default Transaction;
