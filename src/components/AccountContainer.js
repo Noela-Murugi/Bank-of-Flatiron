@@ -15,7 +15,12 @@ function AccountContainer() {
 
   },[])
   console.log(transactions);
- 
+//new transaction
+function addTransaction (newTransaction) {
+  const updatedTransactions = [...transactions, newTransaction]
+  setTransactions(updatedTransactions);
+}
+
 
   return (
     <div>
