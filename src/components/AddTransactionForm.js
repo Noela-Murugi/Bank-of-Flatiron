@@ -34,6 +34,11 @@ function AddTransactionForm(newTransactions,id) {
     console.log(dataInfo);
   }
 
+  function handleChange(event){
+    const val = event.target.name
+     setDataInfo({...dataInfo, [val] : event.target.value})
+  }
+
  
 }
 
