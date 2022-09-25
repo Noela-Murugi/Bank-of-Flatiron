@@ -119,6 +119,15 @@
         "amount": "0.14"
       },
       "id": 16
+    },
+    {
+      "dataInfo": {
+        "date": "2022-08-31",
+        "description": "newbank",
+        "category": "category",
+        "amount": "0.01"
+      },
+      "id": 18
     }
   ]
 }
